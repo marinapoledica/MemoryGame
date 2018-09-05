@@ -1,0 +1,65 @@
+*{
+    font-family: 'Amatic SC', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+}
+
+#background {
+    max-width: 650px;
+    margin: 0 auto;
+    
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.pictures-back {
+    background-color: rgb(253, 178, 151);
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 150px;
+}
+
+.img {
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+
+#time {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#selectBox {
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid  rgb(137, 176, 235);
+    border-radius: 5px;
+    color: rgb(137, 176, 235)e;
+}
+
+#start {
+    padding: 6px;
+    background-color: rgb(137, 176, 235);
+    border-radius: 5px;
+    display: block;
+    float: right;
+    font-size: 20px;
+}
+
+.group {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 650px;
+}

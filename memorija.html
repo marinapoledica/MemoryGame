@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Game of Memory</title>
+    </head>
+    <body class="clearfix">
+        <div class="group">
+            <select id="selectBox" onchange="changeTime()">
+                <option value="easy">lako</option>
+                <option value="medium" selected="selected">srednje</option>
+                <option value="hard">teško</option>
+            </select>
+            <button id="start"> START </button> 
+        </div>
+        <div id="time"></div>
+        <div id="background">
+            <div class="pictures"></div>
+        </div>
+        <script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+        <script type="text/javascript" src="js/memorija.js"></script>
+    </body>
+</html>
